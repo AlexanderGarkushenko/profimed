@@ -1,0 +1,149 @@
+.clients {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+ .cli-im {
+    width: 25%;
+    height: 114px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cli-im:nth-child(1) {
+    background-image: url("../image/client-1.webp");
+}
+
+.cli-im:nth-child(2) {
+    background-image: url("../image/client-2.webp");
+}
+
+.cli-im:nth-child(3) {
+    background-image: url("../image/client-3.webp");
+}
+
+.cli-im:nth-child(4) {
+    background-image: url("../image/client-4.webp")
+} 
+
+.backg7{
+    background-color: #919ba6;
+    font-family: sans-serif;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.bor{
+    border-bottom: 1px solid #c5cbcf44;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ent-email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp-email{
+    background-color: rgba(255, 255, 255, 0.198); 
+    color: white;
+    padding: 9px 40px 9px 18px;
+    border: 0px;
+    font-size: 15px;
+}
+
+.inp-email::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.div-fafa{
+    background-color: rgba(255,255,255,0.198);
+    color: white;
+    padding: 9px 10px 9px 10px;
+}
+
+.soc{
+   color: white; 
+   padding-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 93%;
+}
+
+.Santana{
+    line-height: 180%;
+    margin-right: 30px;
+}
+
+.Cars{
+    margin-right: 30px;
+}
+
+.pillars{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    width: 270px;
+}
+
+.inm{
+    width: 74%;
+    margin-bottom: 25px;
+}
+
+.big-zag{
+    font-size: 120%;
+}
+
+.underscore4 {
+    border-bottom: 2px solid #c5cbcf;
+    width: 60px;
+    display: inline-block;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.foot-dep{
+    line-height: 190%;
+}
+
+.other{
+    margin-top: 12px;
+}
+
+.foot-q{
+    line-height: 210%;
+}
+
+.backg8{
+    background-color: #808992e0;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.deep-fo{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ter-co{
+    padding-right: 7px;
+}
+
+.priv-po{
+    border-left: 1px solid white;
+    padding-left: 8px;
+}

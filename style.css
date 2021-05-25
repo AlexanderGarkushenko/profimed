@@ -1,0 +1,879 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7fafb;
+}
+
+.parent {
+    background-image: url(image/background.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 2%;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+.divfirpanel {
+    background-color: rgba(202, 202, 202, 0.239);
+    border-bottom: 1px solid rgba(236, 236, 236, 0.219);
+}
+
+.mail {
+    color: white;
+    text-decoration: none;
+}
+
+.numb {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.firstpanel {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 15px;
+    align-items: center;
+}
+
+.firsthalf {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secondhalf {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.divsecpanel {
+    background-color: rgba(202, 202, 202, 0.239);
+    width: 100%;
+}
+
+.location {
+    border-right: 1px solid rgba(236, 236, 236, 0.219);
+    padding: 13px 20px;
+}
+
+.cart {
+    align-items: center;
+    padding: 13px 15px;
+}
+
+.email {
+    padding: 13px 20px;
+}
+
+.links {
+    padding: 13px 20px;
+}
+
+.number {
+    border-right: 1px solid rgba(236, 236, 236, 0.219);
+    padding: 13px 20px;
+}
+
+.soc {
+    padding: 0px 11px;
+}
+
+.loop {
+    border-right: 1px solid rgba(236, 236, 236, 0.219);
+    border-left: 1px solid rgba(236, 236, 236, 0.219);
+    align-items: center;
+    padding: 13px 15px;
+}
+
+.secondpanel {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 3fr repeat(6, 1fr) 3fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe {
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 4%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 30px;
+    margin: 23px 15px;
+}
+
+.health {
+    font-weight: 700;
+    font-size: 4.3em;
+    line-height: 80%;
+}
+
+.logo {
+    padding-left: 15px;
+}
+
+.life {
+    font-size: 2.7em;
+    font-weight: lighter;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6%;
+    margin-left: 19%;
+    margin-bottom: 15%;
+}
+
+.view {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4%;
+    color: #2a93c9;
+    font-size: 15px;
+    padding: 19px 30px;
+    margin-bottom: 2%;
+}
+
+/* Конец шапки */
+
+.onesect {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    margin-left: 19%;
+    margin-right: 17%;
+    background-color: white;
+    margin-top: -2.5%;
+}
+
+.headline {
+    color: #2a93c9;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.wday1 {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    line-height: 250%;
+    border-bottom: 1px solid rgba(146, 144, 144, 0.171);
+    padding-bottom: 2%;
+}
+
+.wday2 {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    line-height: 250%;
+    border-bottom: 1px solid rgba(146, 144, 144, 0.171);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.wday3 {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    line-height: 250%;
+    padding-top: 2%;
+}
+
+.weekday {
+    font-weight: bold;
+    font-size: 90%;
+    color: #42474c;
+}
+
+.worktime {
+    font-size: 90%;
+    color: #2a93c9;
+    font-weight: bold;
+}
+
+.plan {
+    font-size: 90%;
+    line-height: 180%;
+    color: #42474c;
+}
+
+.viewtable {
+    border: 1.5px solid #2a93c9;
+    background: transparent;
+    color: #2a93c9;
+    font-size: 90%;
+    padding: 4%;
+    border-radius: 2.5%;
+}
+
+.phone {
+    color: #2a93c9;
+    font-size: 210%;
+}
+
+.numbtwo {
+    font-size: 220%;
+}
+
+.numbertwo {
+    display: flex;
+    justify-content: left;
+}
+
+.ophours {
+    padding: 3%;
+    padding-right: 8%;
+    width: 60%;
+    border-bottom: 7px solid #6cc8df;
+}
+
+.doctorstime {
+    padding: 3%;
+    border-bottom: 7px solid #56b0d2;
+}
+
+.emcases {
+    padding: 3%;
+    border-bottom: 7px solid #2a88c9;
+}
+
+/* Конец панели*/
+
+.backg {
+    margin-left: 19%;
+    margin-right: 17%;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'lato', sans-serif;
+}
+
+.servname {
+    font-family: 'lato', sans-serif;
+    font-size: 155%;
+    margin-top: 5.5%;
+    margin-bottom: 4.5%;
+    margin-right: 95%;
+    border-bottom: 2px solid #56b0d2;
+    padding-bottom: 1.8%;
+}
+
+.name5 {
+    font-size: 130%;
+    font-weight: 400;
+    line-height: 190%;
+}
+
+.text5 {
+    font-size: 77%;
+    color: #42474c;
+}
+
+.container5 {
+    line-height: 150%;
+}
+
+/* Конец панели */
+
+.backim {
+    background-image: url(image/docman1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 4.5%;
+}
+
+.backg2 {
+    margin-left: 19%;
+    margin-right: 17%;
+}
+
+.litllogo {
+    padding-top: 7%;
+    padding-bottom: 2.5%;
+}
+
+.welcome {
+    padding-bottom: 2.5%;
+    font-size: 211%;
+    font-weight: 300;
+}
+
+.medproc {
+    padding-bottom: 2.5%;
+    font-size: 133%;
+    font-weight: 300;
+    width: 50%;
+    line-height: 125%;
+}
+
+.special {
+    padding-bottom: 2.5%;
+    width: 50%;
+    line-height: 160%;
+}
+
+.getin {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4%;
+    color: #2a93c9;
+    font-size: 90%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-bottom: 2%;
+}
+
+.divgetin {
+    padding-bottom: 8%;
+    padding-top: 2%;
+}
+
+/* Конец панели */
+
+.backg3 {
+    background: white;
+}
+
+.conticons1 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.conticons2 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+.servname1 {
+    font-family: sans-serif;
+    font-size: 160%;
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5%;
+}
+
+.yu {
+    border-bottom: 2px solid #56b0d2;
+    width: 3.5%;
+    display: inline-block;
+    margin-left: 18.5%;
+}
+
+.servnamediv {
+    padding-bottom: 4%;
+    padding-top: 3.5%;
+}
+
+.icons {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.names {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 120%;
+    line-height: 230%;
+}
+
+.relaxtext {
+    font-family: sans-serif;
+    font-size: 77%;
+    color: #42474c;
+    line-height: 178%;
+}
+
+/* Конец панели */
+
+.backg4 {
+    background-size: cover;
+    background-image: url(image/fullwidth.webp);
+    background-position: center;
+    padding: 118px 100px 96px 100px;
+}
+
+.hallway {
+    display: flex;
+    justify-content: center;
+}
+
+.leftbut {
+    margin-right: 70%;
+    border: 0;
+}
+
+.arowl {
+    margin-right: -20px;
+}
+
+.rightbut {
+    border: 0;
+}
+
+.arowr {
+    margin-left: -20px;
+}
+
+/* Конец панели */
+
+.sizespec {
+    font-family: sans-serif;
+}
+
+.medspecdiv {
+    padding: 45px 0px 35px 0px;
+}
+
+.medspec {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+    font-size: 147%;
+}
+
+.underscore {
+    border-bottom: 2px solid #56b0d2;
+    width: 3.5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 19.3%;
+    padding-top: 10px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: #b5b9bb;
+}
+
+.phototeam {
+    width: 292.5px;
+}
+
+.teamdiv {
+    width: 292.5px;
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+}
+
+.nameteam {
+    color: black;
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.emaillink {
+    color: #b5b9bb;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+.descripteam {
+    padding: 30px;
+    hyphens: manual;
+}
+
+.profmed {
+    font-size: 85%;
+    font-weight: 700;
+}
+
+.teamnumb {
+    font-size: 90%;
+}
+
+.pr6 {
+    padding-right: 6%;
+}
+
+.nameteamdiv {
+    margin-bottom: 18px;
+}
+
+/* Конец панели */
+
+.makeappsec {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-top: 4.5%;
+}
+
+.backg5 {
+    width: 50%;
+    background-color: #56b0d2;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pos1 {
+    padding: 80px 115px 45px 0px;
+    width: 600px;
+}
+
+.rero {
+    line-height: 40px;
+    padding-right: 180px;
+}
+
+.makeapp {
+    font-size: 148%;
+}
+
+.underscore2 {
+    border-bottom: 2px solid white;
+    width: 23%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12%;
+    margin-top: 5%;
+}
+
+.seldep {
+    font-size: 107%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.fullname {
+    font-size: 107%;
+    background: none;
+    border: 0px;
+    width: 100%;
+}
+
+.fullname::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.fullnamep {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.calendar {
+    font-size: 107%;
+    background: none;
+    border: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.calendarp {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 107%;
+}
+
+.cal-r {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 800px;
+    padding-top: 8px;
+}
+
+.sendre {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4%;
+    color: black;
+    font-size: 90%;
+    margin-top: 10%;
+    padding: 17px 40px 17px 40px;
+}
+
+.rigin {
+    width: 153%;
+}
+
+.backg6 {
+    width: 50%;
+    background-color: white;
+}
+
+.pos2 {
+    padding: 80px 0px 45px 65px;
+    width: 600px;
+}
+
+.underscore3 {
+    border-bottom: 2px solid #56b0d2;
+    width: 70px;
+    display: inline-block;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    color: rgb(143, 147, 149);
+    font-size: 14px;
+    justify-content: space-evenly;
+    height: 120px;
+    line-height: 200%;
+}
+
+.bordnew {
+    padding-top: 7%;
+    border-top: 1px solid #c5cbcf;
+    margin-top: 7%;
+}
+
+.cal-1 {
+    margin-right: 1%;
+    color: #56b0d2;
+}
+
+.frnew {
+    color: #56b0d2;
+    font-size: 160%;
+    text-decoration: none;
+}
+
+.by-in {
+    color: #56b0d2;
+    text-decoration: none;
+}
+
+/* Конец панели */
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+ .cli-im {
+    width: 25%;
+    height: 114px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cli-im:nth-child(1) {
+    background-image: url("image/client-1.webp");
+}
+
+.cli-im:nth-child(2) {
+    background-image: url("image/client-2.webp");
+}
+
+.cli-im:nth-child(3) {
+    background-image: url("image/client-3.webp");
+}
+
+.cli-im:nth-child(4) {
+    background-image: url("image/client-4.webp")
+} 
+
+/* Конец панели */
+
+.backg7{
+    background-color: #919ba6;
+    font-family: sans-serif;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.bor{
+    border-bottom: 1px solid #c5cbcf44;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ent-email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp-email{
+    background-color: rgba(255, 255, 255, 0.198); 
+    color: white;
+    padding: 9px 40px 9px 18px;
+    border: 0px;
+    font-size: 15px;
+}
+
+.inp-email::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.div-fafa{
+    background-color: rgba(255,255,255,0.198);
+    color: white;
+    padding: 9px 10px 9px 10px;
+}
+
+.soc{
+   color: white; 
+   padding-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 93%;
+}
+
+.Santana{
+    line-height: 180%;
+    margin-right: 30px;
+}
+
+.Cars{
+    margin-right: 30px;
+}
+
+.pillars{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    width: 270px;
+}
+
+.inm{
+    width: 74%;
+    margin-bottom: 25px;
+}
+
+.big-zag{
+    font-size: 120%;
+}
+
+.underscore4 {
+    border-bottom: 2px solid #c5cbcf;
+    width: 60px;
+    display: inline-block;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.foot-dep{
+    line-height: 190%;
+}
+
+.other{
+    margin-top: 12px;
+}
+
+.foot-q{
+    line-height: 210%;
+}
+
+.backg8{
+    background-color: #808992e0;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.deep-fo{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ter-co{
+    padding-right: 7px;
+}
+
+.priv-po{
+    border-left: 1px solid white;
+    padding-left: 8px;
+}
+/* ------------------------------------------------------ */
+#calendar2 {
+    width: 100%;
+    font: monospace;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+}
+
+#calendar2 thead tr:last-child {
+    font-size: small;
+    color: rgb(85, 85, 85);
+}
+
+#calendar2 thead tr:nth-child(1) td:nth-child(2) {
+    color: rgb(50, 50, 50);
+}
+
+#calendar2 thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+}
+
+#calendar2 tbody td {
+    color: rgb(44, 86, 122);
+}
+
+#calendar2 tbody td:nth-child(n+6),
+#calendar2 .holiday {
+    color: rgb(231, 140, 92);
+}
+
+#calendar2 tbody td.today {
+    background: rgb(220, 0, 0);
+    color: #fff;
+}

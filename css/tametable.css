@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background-image: url(../image/timetable_head.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-style: normal;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+.divfirpanel {
+    background-color: rgba(202, 202, 202, 0.239);
+    border-bottom: 1px solid rgba(236, 236, 236, 0.219);
+}
+
+.mail {
+    color: white;
+}
+
+.numb {
+    color: white;
+    font-weight: 600;
+}
+
+.firstpanel {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 15px;
+    align-items: center;
+}
+
+.firsthalf {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secondhalf {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.divsecpanel {
+    background-color: rgba(202, 202, 202, 0.239);
+    width: 100%;
+}
+
+.location {
+    border-right: 1px solid rgba(236, 236, 236, 0.219);
+    padding: 13px 20px;
+}
+
+.cart {
+    align-items: center;
+    padding: 13px 15px;
+}
+
+.email {
+    padding: 13px 20px;
+}
+
+.links {
+    padding: 13px 20px;
+}
+
+.number {
+    border-right: 1px solid rgba(236, 236, 236, 0.219);
+    padding: 13px 20px;
+}
+
+.soc {
+    padding: 0px 11px;
+}
+
+.loop {
+    border-right: 1px solid rgba(236, 236, 236, 0.219);
+    border-left: 1px solid rgba(236, 236, 236, 0.219);
+    align-items: center;
+    padding: 13px 15px;
+}
+
+.secondpanel {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 3fr repeat(6, 1fr) 3fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe {
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 4%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 30px;
+    margin: 23px 15px;
+}
+
+.title {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    font-size: 90%;
+}
+
+.home-tb {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stick {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.homes {
+    color: white;
+    text-decoration: none;
+}
+
+/* Конец панели */
+
+.backg1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+}
+
+.per_time-div {
+    background-color: #767f89cc;
+    width: 100%;
+}
+
+.per_time {
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+
+.timet_h1{
+    line-height: 80px;
+    font-size: 3rem;
+}
+
+.timet_h3{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
