@@ -347,5 +347,5 @@
     <!-- Конец панели -->
 <?php require_once("./layout/footer.php")?>
 </body>
-asdds
+
 </html>
