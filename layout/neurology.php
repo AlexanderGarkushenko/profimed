@@ -67,7 +67,6 @@
         </div>
     </div>
     <!-- Конец панели -->
-
     <div class="backg1">
         <div class="dep-inf-div">
             <div class="dep-inf">
@@ -295,11 +294,8 @@
             </div>
             <!-- Конец панели -->
             <h3 class="case blue">Врачебное расписание</h3>
-            <style>
-               
-            </style>
             <table id="calendar2">
-                <thead>
+                <thead class="t-tab">
                     <tr>
                         <td>‹
                         <td colspan="5">
@@ -314,9 +310,21 @@
                         <td>Вс
                 <tbody>
             </table>
+            <!---------------------Calendar------------------------------>
+            <div>
+                <h3>Отделения</h3>
+                <ul>
+                    <li><a>Неврология</a></li>
+                    <li><a>Травмотология</a></li>
+                    <li><a>Гинекология</a></li>
+                    <li><a>Нефрология</a></li>
+                    <li><a>Кардиология</a></li>
+                    <li><a>Пульмонария</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    
+
     <?php require_once("./footer.php") ?>
     <script src="../js/my_js.js"></script>
 </body>
