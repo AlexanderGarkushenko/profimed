@@ -1,154 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: rgba(241, 241, 241, 0.185);
-}
-
-.parent {
-    background-image: url(../image/timetable_head.webp);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-style: normal;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    color: white;
-    line-height: 1.6;
-}
-
-.divfirpanel {
-    background-color: rgba(202, 202, 202, 0.239);
-    border-bottom: 1px solid rgba(236, 236, 236, 0.219);
-}
-
-.mail {
-    color: white;
-}
-
-.numb {
-    color: white;
-    font-weight: 600;
-}
-
-.firstpanel {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    font-size: 15px;
-    align-items: center;
-}
-
-.firsthalf {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.secondhalf {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.divsecpanel {
-    background-color: rgba(202, 202, 202, 0.239);
-    width: 100%;
-}
-
-.location {
-    border-right: 1px solid rgba(236, 236, 236, 0.219);
-    padding: 13px 20px;
-}
-
-.cart {
-    align-items: center;
-    padding: 13px 15px;
-}
-
-.email {
-    padding: 13px 20px;
-}
-
-.links {
-    padding: 13px 20px;
-}
-
-.number {
-    border-right: 1px solid rgba(236, 236, 236, 0.219);
-    padding: 13px 20px;
-}
-
-.soc {
-    padding: 0px 11px;
-}
-
-.loop {
-    border-right: 1px solid rgba(236, 236, 236, 0.219);
-    border-left: 1px solid rgba(236, 236, 236, 0.219);
-    align-items: center;
-    padding: 13px 15px;
-}
-
-.secondpanel {
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    grid-template-columns: 3fr repeat(6, 1fr) 3fr;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.list {
-    text-align: center;
-    padding: 5px 20px;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-}
-
-.subscribe {
-    border: 1px solid white;
-    background: transparent;
-    border-radius: 4%;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 20px 30px;
-    margin: 23px 15px;
-}
-
-.title {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 44px;
-    padding-bottom: 44px;
-    font-size: 90%;
-}
-
-.home-tb {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.stick {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.homes {
-    color: white;
-    text-decoration: none;
-}
-
-.timetb-p {
-    color: rgba(255, 255, 255, 0.445);
-}
-
-/* Конец панели */
-
 .backg1 {
     display: flex;
     justify-content: space-between;
@@ -186,6 +35,7 @@ body {
     line-height: 150%;
     color: #42474cca;
 }
+
 
 /* Конец панели */
 
@@ -477,6 +327,7 @@ body {
     color: #56b0d2;
     font-size: 26px;
     margin-bottom: 15px;
+    font-weight: 400;
 }
 
 .backg4 {
@@ -518,8 +369,60 @@ body {
     color: white;
     line-height: 25px;
 }
+
 /* Конец панели */
-.t-tab{
+
+.t-tab {
+    margin-bottom: 30px;
+}
+
+.backg6 {
+    background-color: rgba(158, 162, 165, 0.068);
+    padding: 23px 40px 45px;
+    border-top: 7px solid #56b0d2;
+    font-size: 17px;
+    line-height: 2.6em;
+    margin-bottom: 30px;
+}
+
+/* ---------------Departaments------------------- */
+
+.backg9 {
+    font-family: "roboto", sans-serif;
+    background-color: #254264;
+    padding: 40px 50px 50px 50px;
+    color: white;
+}
+
+.white {
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
+.des {
+    font-size: 19px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.elpet {
+    width: 300px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-elpet {
+    border-radius: 100%;
+}
+
+.main-elpet {
+    margin: auto;
+}
+
+.des-p {
+    font-size: 15px;
+    font-weight: 300;
+}
