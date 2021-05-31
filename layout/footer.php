@@ -34,10 +34,10 @@
                     <h6 class="big-zag">Отделения</h6>
                     <span class="underscore4"></span>
                 </div>
-                <a class="foot-dep">Неврология</a>
-                <a class="foot-dep">Травматология</a>
+                <a href="./neurology.php" class="foot-dep">Неврология</a>
+                <a href="./traumotology.php" class="foot-dep">Травматология</a>
                 <a class="foot-dep">Гинекология</a>
-                <a class="foot-dep">Нефрология</a>
+                <a href="./nephrology.php" class="foot-dep">Нефрология</a>
                 <a class="foot-dep">Кардиология</a>
                 <a class="foot-dep">Пульмонология</a>
             </div>>
@@ -80,3 +80,6 @@
         </div>
     </div>
 </footer>
+<script src="../js/my_js.js"></script>
+</body>
+</html>

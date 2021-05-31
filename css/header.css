@@ -109,6 +109,13 @@ body {
     text-decoration: none;
 }
 
+.list1{
+    font-size: 15px;
+    color: white;
+    padding: 5px 20px 5px 10px;
+    text-decoration: none;
+}
+
 .subscribe {
     border: 1px solid white;
     background: transparent;

@@ -1,20 +1,20 @@
 <?php require_once('./header.php'); ?>
 
-<title>Неврология</title>
+<title>Травмотология</title>
 
 </div>
-        <div class="title">
-            <h1 class="timetb">Неврология</h1>
-            <div class="home-tb">
-                <a class="homes" href="main_page/main_page.html">Домашняя</a>
-                <p class="stick">/</p>
-                <a class="homes" href="">Услуги</a>
-                <p class="stick">/</p>
-                <p class="timetb-p">Неврология</p>
-            </div>
-        </div>
+<div class="title">
+    <h1 class="timetb">Травмотология</h1>
+    <div class="home-tb">
+        <a class="homes" href="main_page/main_page.html">Домашняя</a>
+        <p class="stick">/</p>
+        <a class="homes" href="">Услуги</a>
+        <p class="stick">/</p>
+        <p class="timetb-p">Травмотология</p>
     </div>
-    <!-- Конец панели -->
+</div>
+</div>
+<!--------------HEADER-------------------->
 <div class="backg1">
     <div class="dep-inf-div">
         <div class="dep-inf">
@@ -24,7 +24,7 @@
         </div>
     </div>
     <div>
-        <img class="neuro-img" width="950" src="../image/neurologia-woman.webp">
+        <img class="neuro-img" width="950" src="../image/traumotology.webp">
     </div>
 </div>
 <!-- Конец панели -->
@@ -51,8 +51,8 @@
             <p class="serv"><i class="fa fa-check gal"></i>Раннее выявление и вмешательство</p>
             <p class="serv"><i class="fa fa-check gal"></i>Сложные хирургические вмешательства</p>
         </div>
-        <div class="neuro-img-div">
-            <p class="neuro-img2">Отделение нейрологии</p>
+        <div style="background-image: url(../image/traumotology1.jpg);" class="neuro-img-div">
+            <p class="neuro-img2">Отделение травмотологии</p>
         </div>
         <!-- Конец панели -->
         <div class="case-bg">
@@ -146,7 +146,6 @@
                 </div>
             </div>
         </div>
-        <!-- Конец панели -->
         <div>
             <div>
                 <h3 class="dep-inf-h3">Процедуры</h3>
@@ -227,10 +226,10 @@
     <!-- Конец панели -->
     <div class="pillar2">
         <h3 class="case blue">Главный врач</h3>
-        <img class="fafa-img" src="../image/team-2.jpg">
+        <img class="fafa-img" src="../image/team-1.jpg">
         <div class="backg4">
             <h6 class="meddoc">Врач</h6>
-            <h5 class="dr-gh">Др. Грег Хаус</h5>
+            <h5 class="dr-gh">Др. Сара Джонс</h5>
             <div class="fafa-div">
                 <i class="fa fa-mobile ic"></i>
                 <span class="fafa-text  ">+ 800 123 45 67</span>
@@ -284,5 +283,6 @@
         </div>
     </div>
 </div>
+<!-- Конец панели -->
 
 <?php require_once("./footer.php") ?>

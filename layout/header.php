@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Неврология</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/neurology.css">
     <link rel="stylesheet" href="../css/footer.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -47,7 +44,15 @@
             <div class="secondpanel">
                 <a href="../index.php" class="logo"><img src="../image/logo.png"></a>
                 <a href="../layout/home.php" class="list">Домашняя</a>
-                <a href="../layout/departaments.php" class="list">Отделения</a>
+                <details class="rigin">
+                    <summary class="list1">Отделения</summary>
+                    <a href="./neurology.php" class="list1">Неврология</a>
+                    <a href="./traumotology.php" class="list1">Травмотология</a>
+                    <a href="./nephrology.php" class="list1">Нефрология</a>
+                    <p class="list1">Кардиология</p>
+                    <p class="list1">Пульмонология</p>
+                    <p class="list1">Деторождение</p>
+                </details>
                 <a href="../layout/doctors.php" class="list">Доктора</a>
                 <a href="../layout/timetable.php" class="list">Расписание</a>
                 <a href="../layout/news.php" class="list">Новости</a>
@@ -56,17 +61,3 @@
                     <button class="subscribe">Записаться на прием</button>
                 </a>
             </div>
-            <!-- -------------------HEADER----------------------------------- -->
-        </div>
-        <div class="title">
-            <h1 class="timetb">Неврология</h1>
-            <div class="home-tb">
-                <a class="homes" href="main_page/main_page.html">Домашняя</a>
-                <p class="stick">/</p>
-                <a class="homes" href="">Услуги</a>
-                <p class="stick">/</p>
-                <p class="timetb-p">Неврология</p>
-            </div>
-        </div>
-    </div>
-    <!-- Конец панели -->
