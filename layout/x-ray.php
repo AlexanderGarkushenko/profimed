@@ -1,16 +1,16 @@
 <?php require_once('./header.php'); ?>
 
-<title>Травмотология</title>
+<title>Рентген</title>
 
 </div>
 <div class="title">
-    <h1 class="timetb">Травмотология</h1>
+    <h1 class="timetb">Рентген</h1>
     <div class="home-tb">
         <a class="homes" href="main_page/main_page.html">Домашняя</a>
         <p class="stick">/</p>
         <a class="homes" href="">Услуги</a>
         <p class="stick">/</p>
-        <p class="timetb-p">Травмотология</p>
+        <p class="timetb-p">Рентген</p>
     </div>
 </div>
 </div>
@@ -52,7 +52,7 @@
             <p class="serv"><i class="fa fa-check gal"></i>Сложные хирургические вмешательства</p>
         </div>
         <div style="background-image: url(../image/traumotology1.jpg);" class="neuro-img-div">
-            <p class="neuro-img2">Отделение травмотологии</p>
+            <p class="neuro-img2">Отделение рентгена</p>
         </div>
         <!-- Конец панели -->
         <div class="case-bg">
@@ -226,10 +226,10 @@
     <!-- Конец панели -->
     <div class="pillar2">
         <h3 class="case blue">Главный врач</h3>
-        <img class="fafa-img" src="../image/team-1.jpg">
+        <img class="fafa-img" src="../image/team-4.jpg">
         <div class="backg4">
             <h6 class="meddoc">Врач</h6>
-            <h5 class="dr-gh">Др. Сара Джонс</h5>
+            <h5 class="dr-gh">Др. Томас Элиот</h5>
             <div class="fafa-div">
                 <i class="fa fa-mobile ic"></i>
                 <span class="fafa-text  ">+ 800 123 45 67</span>

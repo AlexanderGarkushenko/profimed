@@ -36,10 +36,10 @@
                 </div>
                 <a href="./neurology.php" class="foot-dep">Неврология</a>
                 <a href="./traumotology.php" class="foot-dep">Травматология</a>
-                <a class="foot-dep">Гинекология</a>
+                <a href="./ginecology.php" class="foot-dep">Гинекология</a>
                 <a href="./nephrology.php" class="foot-dep">Нефрология</a>
-                <a class="foot-dep">Кардиология</a>
-                <a class="foot-dep">Пульмонология</a>
+                <a href="./cardiology.php" class="foot-dep">Кардиология</a>
+                <a href="./pulmonology.php" class="foot-dep">Пульмонология</a>
             </div>>
             <div class="pillars">
                 <div>

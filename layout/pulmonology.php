@@ -1,16 +1,16 @@
 <?php require_once('./header.php'); ?>
 
-<title>Травмотология</title>
+<title>Пульмонология</title>
 
 </div>
 <div class="title">
-    <h1 class="timetb">Травмотология</h1>
+    <h1 class="timetb">Пульмонология</h1>
     <div class="home-tb">
-        <a class="homes" href="main_page/main_page.html">Домашняя</a>
+        <a class="homes" href="../index.php">Домашняя</a>
         <p class="stick">/</p>
         <a class="homes" href="">Услуги</a>
         <p class="stick">/</p>
-        <p class="timetb-p">Травмотология</p>
+        <p class="timetb-p">Пульмонология</p>
     </div>
 </div>
 </div>
@@ -51,8 +51,8 @@
             <p class="serv"><i class="fa fa-check gal"></i>Раннее выявление и вмешательство</p>
             <p class="serv"><i class="fa fa-check gal"></i>Сложные хирургические вмешательства</p>
         </div>
-        <div style="background-image: url(../image/traumotology1.jpg);" class="neuro-img-div">
-            <p class="neuro-img2">Отделение травмотологии</p>
+        <div style="background-image: url(../image/neurology.jpg);" class="neuro-img-div">
+            <p class="neuro-img2">Отделение пульмонологии</p>
         </div>
         <!-- Конец панели -->
         <div class="case-bg">

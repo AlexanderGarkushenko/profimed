@@ -3,18 +3,18 @@
 <title>Неврология</title>
 
 </div>
-        <div class="title">
-            <h1 class="timetb">Неврология</h1>
-            <div class="home-tb">
-                <a class="homes" href="main_page/main_page.html">Домашняя</a>
-                <p class="stick">/</p>
-                <a class="homes" href="">Услуги</a>
-                <p class="stick">/</p>
-                <p class="timetb-p">Неврология</p>
-            </div>
-        </div>
+<div class="title">
+    <h1 class="timetb">Неврология</h1>
+    <div class="home-tb">
+        <a class="homes" href="main_page/main_page.html">Домашняя</a>
+        <p class="stick">/</p>
+        <a class="homes" href="">Услуги</a>
+        <p class="stick">/</p>
+        <p class="timetb-p">Неврология</p>
     </div>
-    <!-- Конец панели -->
+</div>
+</div>
+<!-- Конец панели -->
 <div class="backg1">
     <div class="dep-inf-div">
         <div class="dep-inf">
@@ -262,12 +262,12 @@
         <div class="backg6">
             <h3 class="blue">Отделения</h3>
             <ul>
-                <li><a href="./neurology.php">Неврология</a></li>
-                <li><a href="./traumotology.php">Травмотология</a></li>
-                <li><a>Гинекология</a></li>
-                <li><a>Нефрология</a></li>
-                <li><a>Кардиология</a></li>
-                <li><a>Пульмонария</a></li>
+                <li><a class="blue-a" href="./neurology.php">Неврология</a></li>
+                <li><a class="blue-a" href="./traumotology.php">Травмотология</a></li>
+                <li><a class="blue-a" href="./ginecology.php">Гинекология</a></li>
+                <li><a class="blue-a" href="./nephrology.php">Нефрология</a></li>
+                <li><a class="blue-a" href="./cardiology.php">Кардиология</a></li>
+                <li><a class="blue-a" href="./pulmonology.php">Пульмонология</a></li>
             </ul>
         </div>
         <!----------------------Departaments---------------------------->

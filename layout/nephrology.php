@@ -52,7 +52,7 @@
             <p class="serv"><i class="fa fa-check gal"></i>Сложные хирургические вмешательства</p>
         </div>
         <div style="background-image: url(../image/traumotology1.jpg);" class="neuro-img-div">
-            <p class="neuro-img2">Отделение травмотологии</p>
+            <p class="neuro-img2">Отделение нефрологии</p>
         </div>
         <!-- Конец панели -->
         <div class="case-bg">
@@ -261,12 +261,12 @@
         <div class="backg6">
             <h3 class="blue">Отделения</h3>
             <ul>
-                <li><a href="./neurology.php">Неврология</a></li>
-                <li><a href="./traumotology.php">Травмотология</a></li>
-                <li><a>Гинекология</a></li>
-                <li><a href="./nephrology.php">Нефрология</a></li>
-                <li><a>Кардиология</a></li>
-                <li><a>Пульмонария</a></li>
+                <li><a class="blue-a" href="./neurology.php">Неврология</a></li>
+                <li><a class="blue-a" href="./traumotology.php">Травмотология</a></li>
+                <li><a class="blue-a" href="./ginecology.php">Гинекология</a></li>
+                <li><a class="blue-a" href="./nephrology.php">Нефрология</a></li>
+                <li><a class="blue-a" href="./cardiology.php">Кардиология</a></li>
+                <li><a class="blue-a" href="./pulmonology.php">Пульмонология</a></li>
             </ul>
         </div>
         <!----------------------Departaments---------------------------->

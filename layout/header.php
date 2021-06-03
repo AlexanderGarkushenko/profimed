@@ -43,15 +43,21 @@
         <div class="divsecpanel">
             <div class="secondpanel">
                 <a href="../index.php" class="logo"><img src="../image/logo.png"></a>
-                <a href="../layout/home.php" class="list">Домашняя</a>
+                <a href="../layout/index.php" class="list">Домашняя</a>
                 <details class="rigin">
                     <summary class="list1">Отделения</summary>
                     <a href="./neurology.php" class="list1">Неврология</a>
                     <a href="./traumotology.php" class="list1">Травмотология</a>
                     <a href="./nephrology.php" class="list1">Нефрология</a>
-                    <p class="list1">Кардиология</p>
-                    <p class="list1">Пульмонология</p>
-                    <p class="list1">Деторождение</p>
+                    <a href="./cardiology.php" class="list1" >Кардиология</a>
+                    <a href="./pulmonology.php" class="list1" >Пульмонология</a>
+                    <a href="./birth.php" class="list1" >Деторождение</a>
+                    <a href="./ginecology.php" class="list1" >Гинекология</a>
+                    <a href="./dental.php" class="list1" >Стамотология</a>
+                    <a href="./x-ray.php" class="list1" >Рентген</a>
+                    <a href="" class="list1" >Беременность</a>
+                    <a href="" class="list1" >Инвалидность</a>
+                    <a href="" class="list1" >ЯМР</a>
                 </details>
                 <a href="../layout/doctors.php" class="list">Доктора</a>
                 <a href="../layout/timetable.php" class="list">Расписание</a>

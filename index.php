@@ -41,7 +41,21 @@
             <div class="secondpanel">
                 <a href="index.php" class="logo"><img src="image/logo.png"></a>
                 <a href="layout/home.php" class="list">Домашняя</a>
-                <a href="layout/departaments.php" class="list">Отделения</a>
+                <details class="rigin1">
+                    <summary class="list1">Отделения</summary>
+                    <a href="./neurology.php" class="list1">Неврология</a>
+                    <a href="./traumotology.php" class="list1">Травмотология</a>
+                    <a href="./nephrology.php" class="list1">Нефрология</a>
+                    <a href="./cardiology.php" class="list1">Кардиология</a>
+                    <a href="./pulmonology.php" class="list1">Пульмонология</a>
+                    <a href="./birth.php" class="list1">Деторождение</a>
+                    <a href="./ginecology.php" class="list1">Гинекология</a>
+                    <a href="" class="list1">Стамотология</a>
+                    <a href="" class="list1">Рентген</a>
+                    <a href="" class="list1">Беременность</a>
+                    <a href="" class="list1">Инвалидность</a>
+                    <a href="" class="list1">ЯМР</a>
+                </details>
                 <a href="layout/doctors.php" class="list">Доктора</a>
                 <a href="layout/timetable.php" class="list">Расписание</a>
                 <a href="layout/news.php" class="list">Новости</a>
@@ -240,8 +254,7 @@
                         <a class="nameteam" href="other/names.html">Др. Сара Джонс</a><br>
                     </div>
                     <span class="teamnumb"><i class="fa fa-tablet pr6"></i>+ 800 123 45 67</span><br>
-                    <a class="emaillink" href="other/email.html"><i
-                            class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
+                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                 </div>
             </div>
             <div class="teamdiv">
@@ -252,8 +265,7 @@
                         <a class="nameteam" href="other/names.html">Др. Грег Хаус</a><br>
                     </div>
                     <span class="teamnumb"><i class="fa fa-map-marker pr6"></i>Медицинский доктор</span><br>
-                    <a class="emaillink" href="other/email.html"><i
-                            class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
+                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                 </div>
             </div>
             <div class="teamdiv">
@@ -264,8 +276,7 @@
                         <a class="nameteam" href="other/names.html">Др. Марта Стюарт</a><br>
                     </div>
                     <span class="teamnumb"><i class="fa fa-tablet pr6"></i>+ 800 123 45 67</span><br>
-                    <a class="emaillink" href="other/email.html"><i
-                            class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
+                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                 </div>
             </div>
             <div class="teamdiv">
@@ -276,8 +287,7 @@
                         <a class="nameteam" href="other/names.html">Др. Найт Шьямалан</a><br>
                     </div>
                     <span class="teamnumb"><i class="fa fa-tablet pr6"></i>+ 800 123 45 67</span><br>
-                    <a class="emaillink" href="other/email.html"><i
-                            class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
+                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                 </div>
             </div>
         </div>
@@ -345,7 +355,7 @@
         </div>
     </section>
     <!-- Конец панели -->
-<?php require_once("./layout/footer.php")?>
+    <?php require_once("./layout/footer.php") ?>
 </body>
 
 </html>
