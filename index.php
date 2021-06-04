@@ -41,21 +41,22 @@
             <div class="secondpanel">
                 <a href="index.php" class="logo"><img src="image/logo.png"></a>
                 <a href="layout/home.php" class="list">Домашняя</a>
-                <details class="rigin1">
-                    <summary class="list1">Отделения</summary>
-                    <a href="./neurology.php" class="list1">Неврология</a>
-                    <a href="./traumotology.php" class="list1">Травмотология</a>
-                    <a href="./nephrology.php" class="list1">Нефрология</a>
-                    <a href="./cardiology.php" class="list1">Кардиология</a>
-                    <a href="./pulmonology.php" class="list1">Пульмонология</a>
-                    <a href="./birth.php" class="list1">Деторождение</a>
-                    <a href="./ginecology.php" class="list1">Гинекология</a>
-                    <a href="" class="list1">Стамотология</a>
-                    <a href="" class="list1">Рентген</a>
-                    <a href="" class="list1">Беременность</a>
-                    <a href="" class="list1">Инвалидность</a>
-                    <a href="" class="list1">ЯМР</a>
-                </details>
+                <div class="rigin1">Отделения
+                    <div class="list_container">
+                        <a href="./neurology.php" class="list1">Неврология</a>
+                        <a href="./traumotology.php" class="list1">Травмотология</a>
+                        <a href="./nephrology.php" class="list1">Нефрология</a>
+                        <a href="./cardiology.php" class="list1">Кардиология</a>
+                        <a href="./pulmonology.php" class="list1">Пульмонология</a>
+                        <a href="./birth.php" class="list1">Деторождение</a>
+                        <a href="./ginecology.php" class="list1">Гинекология</a>
+                        <a href="./dental.php" class="list1">Стамотология</a>
+                        <a href="./x-ray.php" class="list1">Рентген</a>
+                        <a href="./pregnancy.php" class="list1">Беременность</a>
+                        <a href="./disabled.php" class="list1">Инвалидность</a>
+                        <a href="./nmr.php" class="list1">ЯМР</a>
+                    </div>
+                </div>
                 <a href="layout/doctors.php" class="list">Доктора</a>
                 <a href="layout/timetable.php" class="list">Расписание</a>
                 <a href="layout/news.php" class="list">Новости</a>
@@ -175,59 +176,59 @@
             </div>
             <div class="icons">
                 <img src="image/icon-dep-2.webp">
-                <a class="names">Травматология</a>
+                <a href="./layout/traumotology.php" class="names">Травматология</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-3.webp">
-                <a class="names">Нефрология</a>
+                <a href="./layout/nephrology.php" class="names">Нефрология</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-4.webp">
-                <a class="names">Кардиология</a>
+                <a href="./layout/cardiology.php" class="names">Кардиология</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-5.webp">
-                <a class="names">Пульмонология</a>
+                <a href="./layout/pulmonology.php" class="names">Пульмонология</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-6.webp">
-                <a class="names">Деторождение</a>
+                <a href="./layout/birth.php" class="names">Деторождение</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
         </section>
         <section class="conticons2">
             <div class="icons">
                 <img src="image/icon-dep-7.webp">
-                <a class="names">Гинекология</a>
+                <a href="./layout/ginecology.php" class="names">Гинекология</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-8.webp">
-                <a class="names">Стамотология</a>
+                <a href="./layout/dental.php" class="names">Стамотология</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-9.webp"><br>
-                <a class="names">Рентген</a><br>
+                <a href="./layout/x-ray.php" class="names">Рентген</a><br>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-10.webp">
-                <a class="names">Беременность</a>
+                <a href="./layout/pregnancy.php" class="names">Беременность</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-11.webp">
-                <a class="names">Инвалидность</a>
+                <a href="./layout/disabled.php" class="names">Инвалидность</a>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
             <div class="icons">
                 <img src="image/icon-dep-12.webp"><br>
-                <a class="names">ЯМР</a><br>
+                <a href="./layout/nmr.php" class="names">ЯМР</a><br>
                 <p class="relaxtext">Лечение идеально соответствует вашим целям</p>
             </div>
         </section>
@@ -355,7 +356,89 @@
         </div>
     </section>
     <!-- Конец панели -->
-    <?php require_once("./layout/footer.php") ?>
+    <section class="clients">
+        <div class="cli-im"></div>
+        <div class="cli-im"></div>
+        <div class="cli-im"></div>
+        <div class="cli-im"></div>
+    </section>
+    <footer>
+        <div class="backg7 bor">
+            <div class="content">
+                <div class="ent-email">
+                    <input class="inp-email" type="email" placeholder="Введите эл. почту">
+                    <div class="div-fafa">
+                        <a><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+                <div class="soc-web">
+                    <i class="fa fa-linkedin soc"></i>
+                    <i class="fa fa-twitter soc"></i>
+                    <i class="fa fa-facebook soc"></i>
+                    <i class="fa fa-instagram soc"></i>
+                </div>
+            </div>
+        </div>
+        <div class="backg7">
+            <div class="footer">
+                <div class="pillars Santana">
+                    <img class="inm" src="./image/logo.png">
+                    <p>Выбор правильной больницы и врача-это важные факторы, которые необходимо учитывать
+                        и которые существенно влияют на лечение пациента.
+                        Предпочтительным выбором для многих пациентов является выбор частного ухода.</p>
+                </div>
+                <div class="pillars Cars">
+                    <div>
+                        <h6 class="big-zag">Отделения</h6>
+                        <span class="underscore4"></span>
+                    </div>
+                    <a href="./layout/neurology.php" class="foot-dep">Неврология</a>
+                    <a href="./layout/traumotology.php" class="foot-dep">Травматология</a>
+                    <a href="./layout/ginecology.php" class="foot-dep">Гинекология</a>
+                    <a href="./layout/nephrology.php" class="foot-dep">Нефрология</a>
+                    <a href="./layout/cardiology.php" class="foot-dep">Кардиология</a>
+                    <a href="./layout/pulmonology.php" class="foot-dep">Пульмонология</a>
+                </div>
+                <div class="pillars">
+                    <div>
+                        <h6 class="big-zag">Главный офис</h6>
+                        <span class="underscore4"></span>
+                    </div>
+                    <p class="foot-dep">4096 Хайленд-ст, Арлингтон<br>
+                        Верджиния 32101, США<br>
+                        info@profimed.com<br>
+                        800 1234 56 78<br>
+                    </p>
+                    <p class="foot-dep other">
+                        Пн-чт: 09:30-21:00<br>
+                        Пт: 06:00-21:00<br>
+                        Сб: 10:00-15:00<br>
+                    </p>
+                </div>
+                <div class="pillars">
+                    <div>
+                        <h6 class="big-zag">Быстрые ссылки</h6>
+                        <span class="underscore4"></span>
+                    </div>
+                    <a class="foot-q">Домашняя</a>
+                    <a class="foot-q">Отделения</a>
+                    <a class="foot-q">На тему...</a>
+                    <a class="foot-q">Новости</a>
+                    <a class="foot-q">Контакты</a>
+                </div>
+            </div>
+        </div>
+        <div class="backg8">
+            <div class="deep-fo">
+                <div>
+                    <a class="ter-co">Условия и положения</a>
+                    <a class="priv-po">Политика конфиденциальности</a>
+                </div>
+                <p>© 2021 PROFIMED. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/my_js.js"></script>
 </body>
 
 </html>

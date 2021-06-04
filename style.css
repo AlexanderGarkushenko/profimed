@@ -111,15 +111,25 @@ body {
     text-decoration: none;
 }
 
-.list1{
-    color: white;
-    text-decoration: none;
+.list_container {
+    display: none;
 }
 
-.rigin1{
+.rigin1 {
     font-size: 15px;
     color: white;
     text-decoration: none;
+    position: relative;
+}
+
+.list1{
+    color: white;
+}
+
+.rigin1:hover .list_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
 }
 
 .subscribe {
@@ -710,7 +720,7 @@ body {
     margin: 50px auto;
 }
 
- .cli-im {
+.cli-im {
     width: 25%;
     height: 114px;
     background-size: cover;
@@ -731,84 +741,84 @@ body {
 
 .cli-im:nth-child(4) {
     background-image: url("image/client-4.webp")
-} 
+}
 
 /* Конец панели */
 
-.backg7{
+.backg7 {
     background-color: #919ba6;
     font-family: sans-serif;
     padding-top: 37px;
     padding-bottom: 37px;
 }
 
-.bor{
+.bor {
     border-bottom: 1px solid #c5cbcf44;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-around;
 }
 
-.ent-email{
+.ent-email {
     display: flex;
     justify-content: space-between;
 }
 
-.inp-email{
-    background-color: rgba(255, 255, 255, 0.198); 
+.inp-email {
+    background-color: rgba(255, 255, 255, 0.198);
     color: white;
     padding: 9px 40px 9px 18px;
     border: 0px;
     font-size: 15px;
 }
 
-.inp-email::placeholder{
+.inp-email::placeholder {
     color: white;
     opacity: 1;
 }
 
-.div-fafa{
-    background-color: rgba(255,255,255,0.198);
+.div-fafa {
+    background-color: rgba(255, 255, 255, 0.198);
     color: white;
     padding: 9px 10px 9px 10px;
 }
 
-.soc{
-   color: white; 
-   padding-top: 10px;
+.soc {
+    color: white;
+    padding-top: 10px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     color: white;
     font-size: 93%;
 }
 
-.Santana{
+.Santana {
     line-height: 180%;
     margin-right: 30px;
 }
 
-.Cars{
+.Cars {
     margin-right: 30px;
 }
 
-.pillars{
+.pillars {
     display: flex;
     flex-direction: column;
     vertical-align: top;
     width: 270px;
 }
 
-.inm{
+.inm {
     width: 74%;
     margin-bottom: 25px;
 }
 
-.big-zag{
+.big-zag {
     font-size: 120%;
 }
 
@@ -820,25 +830,27 @@ body {
     margin-bottom: 7%;
 }
 
-.foot-dep{
+.foot-dep {
     line-height: 190%;
+    color: white;
+    text-decoration: none;
 }
 
-.other{
+.other {
     margin-top: 12px;
 }
 
-.foot-q{
+.foot-q {
     line-height: 210%;
 }
 
-.backg8{
+.backg8 {
     background-color: #808992e0;
     padding-top: 23px;
     padding-bottom: 23px;
 }
 
-.deep-fo{
+.deep-fo {
     color: white;
     font-family: sans-serif;
     font-size: 13px;
@@ -846,15 +858,17 @@ body {
     justify-content: space-around;
 }
 
-.ter-co{
+.ter-co {
     padding-right: 7px;
 }
 
-.priv-po{
+.priv-po {
     border-left: 1px solid white;
     padding-left: 8px;
 }
+
 /* ------------------------------------------------------ */
+
 #calendar2 {
     width: 100%;
     font: monospace;
@@ -872,8 +886,7 @@ body {
     color: rgb(50, 50, 50);
 }
 
-#calendar2 thead tr:nth-child(1) td:nth-child(1):hover,
-#calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+#calendar2 thead tr:nth-child(1) td:nth-child(1):hover, #calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
     cursor: pointer;
 }
 
@@ -881,8 +894,7 @@ body {
     color: rgb(44, 86, 122);
 }
 
-#calendar2 tbody td:nth-child(n+6),
-#calendar2 .holiday {
+#calendar2 tbody td:nth-child(n+6), #calendar2 .holiday {
     color: rgb(231, 140, 92);
 }
 

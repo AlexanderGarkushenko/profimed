@@ -55,9 +55,9 @@
                     <a href="./ginecology.php" class="list1" >Гинекология</a>
                     <a href="./dental.php" class="list1" >Стамотология</a>
                     <a href="./x-ray.php" class="list1" >Рентген</a>
-                    <a href="" class="list1" >Беременность</a>
-                    <a href="" class="list1" >Инвалидность</a>
-                    <a href="" class="list1" >ЯМР</a>
+                    <a href="./pregnancy.php" class="list1" >Беременность</a>
+                    <a href="./disabled.php" class="list1" >Инвалидность</a>
+                    <a href="./nmr.php" class="list1" >ЯМР</a>
                 </details>
                 <a href="../layout/doctors.php" class="list">Доктора</a>
                 <a href="../layout/timetable.php" class="list">Расписание</a>
