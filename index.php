@@ -43,18 +43,60 @@
                 <a href="layout/home.php" class="list">Домашняя</a>
                 <div class="rigin1">Отделения
                     <div class="list_container">
-                        <a href="./neurology.php" class="list1">Неврология</a>
-                        <a href="./traumotology.php" class="list1">Травмотология</a>
-                        <a href="./nephrology.php" class="list1">Нефрология</a>
-                        <a href="./cardiology.php" class="list1">Кардиология</a>
-                        <a href="./pulmonology.php" class="list1">Пульмонология</a>
-                        <a href="./birth.php" class="list1">Деторождение</a>
-                        <a href="./ginecology.php" class="list1">Гинекология</a>
-                        <a href="./dental.php" class="list1">Стамотология</a>
-                        <a href="./x-ray.php" class="list1">Рентген</a>
-                        <a href="./pregnancy.php" class="list1">Беременность</a>
-                        <a href="./disabled.php" class="list1">Инвалидность</a>
-                        <a href="./nmr.php" class="list1">ЯМР</a>
+                        <div class="container-max">
+                            <div class="container-min">
+                                <div class="icons">
+                                    <img src="image/icon-dep-1.webp">
+                                    <a href="./layout/neurology.php" class="names">Неврология</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-2.webp">
+                                    <a href="./layout/traumotology.php" class="names">Травматология</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-3.webp">
+                                    <a href="./layout/nephrology.php" class="names">Нефрология</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-4.webp">
+                                    <a href="./layout/cardiology.php" class="names">Кардиология</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-5.webp">
+                                    <a href="./layout/pulmonology.php" class="names">Пульмонология</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-6.webp">
+                                    <a href="./layout/birth.php" class="names">Деторождение</a>
+                                </div>
+                            </div>
+                            <div class="container-min">
+                                <div class="icons">
+                                    <img src="image/icon-dep-7.webp">
+                                    <a href="./layout/ginecology.php" class="names">Гинекология</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-8.webp">
+                                    <a href="./layout/dental.php" class="names">Стамотология</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-9.webp"><br>
+                                    <a href="./layout/x-ray.php" class="names">Рентген</a><br>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-10.webp">
+                                    <a href="./layout/pregnancy.php" class="names">Беременность</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-11.webp">
+                                    <a href="./layout/disabled.php" class="names">Инвалидность</a>
+                                </div>
+                                <div class="icons">
+                                    <img src="image/icon-dep-12.webp"><br>
+                                    <a href="./layout/nmr.php" class="names">ЯМР</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <a href="layout/doctors.php" class="list">Доктора</a>

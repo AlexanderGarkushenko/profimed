@@ -109,11 +109,35 @@ body {
     text-decoration: none;
 }
 
-.list1{
+.list_container {
+    display: none;
+}
+
+.container-max {
+    background-color: white;
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+}
+
+.container-min {
+    display: flex;
+    flex-direction: row;
+}
+
+.rigin1 {
     font-size: 15px;
-    color: white;
-    padding: 5px 20px 5px 10px;
+    position: relative;
+}
+
+.list1{
+    color: black;
     text-decoration: none;
+}
+
+.rigin1:hover .list_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
 }
 
 .subscribe {
@@ -152,4 +176,19 @@ body {
 
 .timetb-p {
     color: rgba(255, 255, 255, 0.445);
+}
+
+.icons {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.names {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 120%;
+    line-height: 230%;
+    color: black;
+    text-decoration: none;
 }
