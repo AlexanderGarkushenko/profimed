@@ -43,63 +43,110 @@
                 <a href="layout/home.php" class="list">Домашняя</a>
                 <div class="rigin1">Отделения
                     <div class="list_container">
-                        <div class="container-max">
-                            <div class="container-min">
-                                <div class="icons">
-                                    <img src="image/icon-dep-1.webp">
-                                    <a href="./layout/neurology.php" class="names">Неврология</a>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-2.webp">
-                                    <a href="./layout/traumotology.php" class="names">Травматология</a>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-3.webp">
-                                    <a href="./layout/nephrology.php" class="names">Нефрология</a>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-4.webp">
-                                    <a href="./layout/cardiology.php" class="names">Кардиология</a>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-5.webp">
-                                    <a href="./layout/pulmonology.php" class="names">Пульмонология</a>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-6.webp">
-                                    <a href="./layout/birth.php" class="names">Деторождение</a>
+                        <div class="container-min">
+                            <a href="./layout/neurology.php" class="names icons">
+                                <img src="image/icon-dep-1.webp">
+                                <p>Неврология</p>
+                            </a>
+                            <a href="./layout/traumotology.php" class="names icons">
+                                <img src="image/icon-dep-2.webp">
+                                <p>Травмотология</p>
+                            </a>
+                            <a href="./layout/nephrology.php" class="names icons">
+                                <img src="image/icon-dep-3.webp">
+                                <p>Нефрология</p>
+                            </a>
+                            <a href="./layout/cardiology.php" class="names icons">
+                                <img src="image/icon-dep-4.webp">
+                                <p>Кардиология</p>
+                            </a>
+                            <a href="./layout/pulmonology.php" class="names icons">
+                                <img src="image/icon-dep-5.webp">
+                                <p>Пульмонология</p>
+                            </a>
+                            <a href="./layout/birth.php" class="names icons">
+                                <img src="image/icon-dep-6.webp">
+                                <p>Деторождение</p>
+                            </a>
+                        </div>
+                        <div class="container-min">
+                            <a href="./layout/ginecology.php" class="names icons">
+                                <img src="image/icon-dep-7.webp">
+                                <p>Гинекология</p>
+                            </a>
+                            <a href="./layout/dental.php" class="names icons">
+                                <img src="image/icon-dep-8.webp">
+                                <p>Стамотология</p>
+                            </a>
+                            <a href="./layout/x-ray.php" class="names icons">
+                                <img src="image/icon-dep-9.webp">
+                                <p>Рентген</p>
+                            </a>
+                            <a href="./layout/pregnancy.php" class="names icons">
+                                <img src="image/icon-dep-10.webp">
+                                <p>Беременность</p>
+                            </a>
+                            <a href="./layout/disabled.php" class="names icons">
+                                <img src="image/icon-dep-11.webp">
+                                <p>Инвалидность</p>
+                            </a>
+                            <a href="./layout/nmr.php" class="names icons">
+                                <img src="image/icon-dep-12.webp"><br>
+                                <p>ЯМР</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="rigin1">Доктора
+                    <div class="list_container">
+                        <div class="team">
+                            <div class="teamdiv1">
+                                <img class="phototeam1" src="image/team-1.jpg">
+                                <div class="descripteam">
+                                    <span class="profmed">Доктор-консультант</span><br>
+                                    <div class="nameteamdiv">
+                                        <a class="nameteam" href="./layout/sara-jhons.php">Др. Сара Джонс</a><br>
+                                    </div>
+                                    <span class="teamnumb"><i class="fa fa-tablet pr6"></i>+ 800 123 45 67</span><br>
+                                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                                 </div>
                             </div>
-                            <div class="container-min">
-                                <div class="icons">
-                                    <img src="image/icon-dep-7.webp">
-                                    <a href="./layout/ginecology.php" class="names">Гинекология</a>
+                            <div class="teamdiv1">
+                                <img class="phototeam1" src="image/team-2.jpg">
+                                <div class="descripteam">
+                                    <span class="profmed">Стоматолог-гигиенист</span><br>
+                                    <div class="nameteamdiv">
+                                        <a class="nameteam" href="other/names.html">Др. Грег Хаус</a><br>
+                                    </div>
+                                    <span class="teamnumb"><i class="fa fa-map-marker pr6"></i>Медицинский доктор</span><br>
+                                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                                 </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-8.webp">
-                                    <a href="./layout/dental.php" class="names">Стамотология</a>
+                            </div>
+                            <div class="teamdiv1">
+                                <img class="phototeam1" src="image/team-3.jpg">
+                                <div class="descripteam">
+                                    <span class="profmed">Педиатр</span><br>
+                                    <div class="nameteamdiv">
+                                        <a class="nameteam" href="other/names.html">Др. Марта Стюарт</a><br>
+                                    </div>
+                                    <span class="teamnumb"><i class="fa fa-tablet pr6"></i>+ 800 123 45 67</span><br>
+                                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                                 </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-9.webp"><br>
-                                    <a href="./layout/x-ray.php" class="names">Рентген</a><br>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-10.webp">
-                                    <a href="./layout/pregnancy.php" class="names">Беременность</a>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-11.webp">
-                                    <a href="./layout/disabled.php" class="names">Инвалидность</a>
-                                </div>
-                                <div class="icons">
-                                    <img src="image/icon-dep-12.webp"><br>
-                                    <a href="./layout/nmr.php" class="names">ЯМР</a>
+                            </div>
+                            <div class="teamdiv1">
+                                <img class="phototeam1" src="image/team-4.jpg">
+                                <div class="descripteam">
+                                    <span class="profmed">Кардиохирург</span><br>
+                                    <div class="nameteamdiv">
+                                        <a class="nameteam" href="other/names.html">Др. Найт Шьямалан</a><br>
+                                    </div>
+                                    <span class="teamnumb"><i class="fa fa-tablet pr6"></i>+ 800 123 45 67</span><br>
+                                    <a class="emaillink" href="other/email.html"><i class="fa fa-envelope pr6"></i>info@profimed.com</a><br>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a href="layout/doctors.php" class="list">Доктора</a>
                 <a href="layout/timetable.php" class="list">Расписание</a>
                 <a href="layout/news.php" class="list">Новости</a>
                 <a href="layout/shop.php" class="list">Магазин</a>

@@ -1,0 +1,12 @@
+.backg2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.pillar1 {
+    width: 800px;
+    margin-right: 15px;
+}
+

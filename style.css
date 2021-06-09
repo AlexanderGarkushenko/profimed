@@ -113,22 +113,24 @@ body {
 
 .list_container {
     display: none;
-}
-
-.container-max {
+    opacity: 0;
+    transition: all 2s;
     background-color: white;
     padding: 30px 20px 0px 20px;
     text-align: center;
+    transform: translateX(-45%);
 }
 
 .container-min {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .rigin1 {
     font-size: 15px;
     position: relative;
+    text-align: center;
 }
 
 .list1{
@@ -140,6 +142,16 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
+    opacity: 1;
+}
+
+.teamdiv1{
+    width: 255px;
+    margin: 0px 15px 0px 15px;
+}
+
+.phototeam1{
+    width: 255px;
 }
 
 .subscribe {
@@ -522,7 +534,7 @@ body {
 }
 
 .phototeam {
-    width: 292.5px;
+    width: 295.5px;
 }
 
 .teamdiv {
