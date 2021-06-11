@@ -10,3 +10,66 @@
     margin-right: 15px;
 }
 
+.pillar2{
+    width: 400px;
+}
+/* ----------------------------------------------- */
+.neuro-img-div {
+    background-image: url(../image/team-5-big.jpg);
+    margin-bottom: 30px;
+    height: 470px;
+    margin-top: 55px;
+}
+
+.cos{
+    padding: 0px 11px;
+}
+
+.ver-two {
+    color: #909aa3;
+    font-size: 110%;
+}
+
+.pillar-p {
+    line-height: 29px;
+    color: #42474ce3;
+    padding-bottom: 20px;
+}
+/* ------------------------------------------------ */
+.char{
+    background-color:rgba(197, 203, 207, 0.15);
+    padding: 20px;
+    border-bottom: 1px solid rgba(197,203,207,.25);
+    font-size: 18px;
+}
+
+.char-over{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.char-h{
+    font-weight: bold;
+    text-align: right;
+    padding-right: 15px;
+    width: 250px;
+}
+
+.char-p{
+    text-align: left;
+    color: #42474c;
+    font-size: 16px;
+}
+
+.char-p2{
+    text-align: left;
+    color: #42474c;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 15px 0px 5px 0px;
+    background-color: white;
+} 
+
